@@ -83,6 +83,12 @@ body{
     padding: 0;
 }
 
+.menuitem:hover {
+    transform: translateY(-10px);
+    transition: transform 350ms;
+}
+
+
 .menuitem a {
     width: 100%;
     text-decoration: none;
