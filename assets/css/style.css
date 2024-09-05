@@ -27,6 +27,10 @@ body{
     background-color: #525252;
 }
 
+.bg-color-three-reasons {
+    background-color: #fff;
+}
+
 /* ----------------------- General styling */
 
 h1,
@@ -48,6 +52,23 @@ h4 {
 
 .inline-block {
     display:inline-block
+}
+
+.row-table {
+    display: table;
+}
+
+.section-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.section-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 
 /* ----------------------- Header */
